@@ -10,10 +10,10 @@ API_ID = int(getenv("API_ID", "6435225")) #optional
 API_HASH = getenv("API_HASH", "") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = int(getenv("OWNER_ID"))
+OWNER_ID = int(getenv("OWNER_ID"," 5940604852"))
 MONGO_URL = getenv("MONGO_URL")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-ALIVE_PIC = getenv("ALIVE_PIC", 'https://telegra.ph/file/3c52a01057865f7511168.jpg')
+ALIVE_PIC = getenv("ALIVE_PIC", 'https://te.legra.ph/file/2ac1c953d54544cc79dda.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
 LOG_GROUP = getenv("LOG_GROUP")
@@ -21,7 +21,7 @@ GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/ITZ-ZAID/ZAID-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
  
-STRING_SESSION1 = getenv("STRING_SESSION1", "")
+STRING_SESSION1 = getenv("STRING_SESSION1", "BQBiMZkAtMsyf7OEjLn7PuwSytr248NbTqtWNOOfNQ2XwykioXG998bkUq8MhREQL4vwedj7Kt4IWG1wNpaTio1Idej5aKEOKbNGNaH5CFbpIy65pqA8Gm_aiZsNAsYt6ESvFknNyyAZM7iYIvpWJq6wFzVlLLxem3JbeQx31dj2sVzUL1D-TqY7936EpesK1Hqo2Ut3iWLGFZu7EOmJsUvVbQraiZQKmAX9wH-ANkTz1oVXwDChHBvBelLdwJ3GXPaVgY53TmrgWz3fphakmZkP9FQR_cBsRQ-Y3aTlJjf")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")
